@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        TIC-TAC-TOE
+    </header>
+    <main>
+        <section class="main-menu">
+            <form action="#"class="player-setup">
+                <div class="player-names">
+                    <div class=".player-1">Player 1(X) : <input type="text" class="player-1-text"></div>
+                    <div class=".player-2">Player 2(O): <input type="text" class="player-2-text"></div>
+                </div>
+                <button type="submit" class="start-button">START!</button>
+            </form>
+        </section>
+        <section class="game none-display">
+            <div class="game-container">
+            <div class="player-turn"></div>
+            <div class="game-grid">
+                <button class="grid-button" data-number="0"></button>
+                <button class="grid-button" data-number="1"></button>
+                <button class="grid-button" data-number="2"></button>
+                <button class="grid-button" data-number="3"></button>
+                <button class="grid-button" data-number="4"></button>
+                <button class="grid-button" data-number="5"></button>
+                <button class="grid-button" data-number="6"></button>
+                <button class="grid-button" data-number="7"></button>
+                <button class="grid-button" data-number="8"></button>
+            </div>
+            <button class="restart-button">Restart</button>
+            </div>
+        </section>
+    </main>
+    <script src="script1.js"> </script>
+</body>
+</html>
